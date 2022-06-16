@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bg1 {
+  background-image: url(./images/bg-hero-desktop.svg);
+}
+
+#contents {
+  width: 80%;
+  margin: auto;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-areas: "a b";
+}
+
+.item-a {
+  grid-area: a;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.item-b {
+  grid-area: b;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.top-button {
+  color: hsl(208, 11%, 55%);
+  padding: 10px;
+  width: 35%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border-color: hsl(0, 0%, 100%);
+  border: ridge;
+  border-width: thin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  justify-items: flex-end;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-areas: "a b";
+  gap: 30px;
+}
+
+.item-a2 {
+  grid-area: a;
+}
+
+.item-b2 {
+  grid-area: b;
+}
+
+#b1-text {
+  color: hsl(192, 100%, 9%);
+  padding-top: 40px;
+}
+
+#b1-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  width: 60%;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#b1-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  word-spacing: 2.5px;
+  align-items: left;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  font-weight: 500;
+  width: 83%;
+}
+
+.pink-button {
+  color: hsl(0, 0%, 100%);
+  padding: 13px;
+  width: 35%;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  border-color: hsl(322, 100%, 66%);
+  border: hidden;
+  border-width: thin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  align-items: right;
+}
+
+.pink-button :hover {
+  color: hsl(0, 0%, 100%);
+  padding: 13px;
+  width: 35%;
+  background-color: hsl(321, 100%, 80%);
+  border-radius: 25px;
+  border-color: hsl(321, 100%, 80%);
+  border: hidden;
+  border-width: thin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  align-items: right;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-areas: "a b";
+  gap: 30px;
+  margin-top: 60px;
+  border: 50px;
+  /* border-color: wheat;
+  padding: 60px; */
+  border-radius: ridge wheat;
+}
+
+.item-a3 {
+  grid-area: a;
+  width: 100%;
+}
+
+.item-b3 {
+  grid-area: b;
+  width: 100%;
+}
+
+#b3-text {
+  padding-top: 70px;
+}
+
+#b3-text h3 {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#b3-text p {
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 2.5px;
+  align-items: left;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  width: 70%;
+}
+
+.row-4 {
+  display: grid;
+  grid-template-areas: "a b";
+  gap: 60px;
+  margin-top: 60px;
+  border: 50px;
+  /* border-color: wheat;
+    padding: 60px; */
+  border-radius: ridge wheat;
+}
+
+.item-a4 {
+  grid-area: a;
+  width: 100%;
+}
+
+.item-b4 {
+  grid-area: b;
+  width: 100%;
+}
+
+#b4-text {
+  padding-top: 70px;
+  justify-self: center;
+  /* margin-right: 90px; */
+}
+
+#b4-text h3 {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#b4-text p {
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 2.5px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.row-5 {
+  display: grid;
+  grid-template-areas: "a b";
+  gap: 30px;
+  margin-top: 60px;
+  border: 50px;
+  /* border-color: wheat;
+  padding: 60px; */
+  border-radius: ridge wheat;
+}
+
+.item-a5 {
+  grid-area: a;
+  width: 100%;
+}
+
+.item-b5 {
+  grid-area: b;
+  width: 100%;
+}
+
+#a5-text {
+  padding-top: 70px;
+}
+
+#a5-text h3 {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+#a5-text p {
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 2.5px;
+  align-items: left;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  width: 70%;
+}
+
+.low-card {
+  justify-self: center;
+  border: solid black 2px;
+  position: fixed;
+  top: 400px;
+}
+
+.low-card h3 {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card-button {
+  color: hsl(0, 0%, 100%);
+  padding: 13px;
+  width: 35%;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  border-color: hsl(322, 100%, 66%);
+  border: hidden;
+  border-width: thin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.card-button :hover {
+  color: hsl(0, 0%, 100%);
+  padding: 13px;
+  width: 35%;
+  background-color: hsl(321, 100%, 80%);
+  border-radius: 25px;
+  border-color: hsl(321, 100%, 80%);
+  border: hidden;
+  border-width: thin;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
